@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Outfit:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 90vh;
+  background-color: white;
+}
+
+body header {
+  background-color: #1d0a0a;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  body header {
+    background-color: orange;
+  }
+}
+
+body .int {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.8rem 2rem;
+}
+
+body .int .chimo {
+  color: black;
+  position: relative;
+}
+
+body .int .chimo p {
+  font-weight: 900;
+}
+
+body .int .btn {
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+body .int .btn button {
+  padding: 1rem 2rem;
+  background-color: orange;
+  border-radius: 10%;
+}
+
+body .int .btn .login {
+  background-color: white;
+}
+
+body .emails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 2rem;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  body .emails {
+    background-color: orange;
+  }
+}
+
+body .emails h2 {
+  font-size: 3rem;
+}
+
+body .emails p {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #312020;
+}
+
+body .emails .butn {
+  margin-top: 4rem;
+  border: 1px solid black;
+}
+
+body .emails .butn button {
+  padding: 1rem 2rem;
+  background-color: orange;
+}
+
+body footer {
+  width: 100%;
+  padding-bottom: .8rem;
+  padding-top: .9rem;
+  background-color: #1d0a0a;
+  color: white;
+  margin-top: 11rem;
+}
+
+@media (max-width: 768px) {
+  body footer {
+    background-color: orange;
+  }
+}
+
+body .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */
